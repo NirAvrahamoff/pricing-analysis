@@ -1,0 +1,22 @@
+﻿Additional information:
+"Carriers A, B, D, E apply 4% fuel surcharge on all orders (on shipping cost and returns cost)."
+"Global-e applies 7% fuel surcharge on merchants B, C, E with all carriers (on shipping revenue)."
+"All orders ending with ""RA"" have an additional remote area fee of USD 2 equivalent that needs to be applied on shipping cost and shipping revenue."
+
+Tasks:
+1. Data cleanup and preparation:
+"Before proceeding with any profitability or weight analysis, ensure that all financial figures are standardized to USD. Note that shipping costs, returns costs, and shipping revenues are expressed in the merchant’s local currency. "
+* Add fuel surcharge and remote are fee where applicable.
+
+2. Profitability analysis:
+* Calculate shipping profitability % [(shipping revenue-shipping cost)/shipping cost] segmented by merchant and by carrier.
+* Calculate shipping profitability % by merchant and carrier after taking into account the shipping returns cost.
+* Highlight 1 key finding from this analysis? Why is it important? How much money is it worth to the company?
+
+3. Weight analysis:
+* Calculate % of orders using each reconciliation method by merchant and by carrier.
+* Calculate weight delta (revenue weight vs. costing weight) by reconciliation weight method.
+* Which reconciliation method suffers from the largest negative weight delta? Does this affect any destinations more than others?
+"* Weight delta can be looked at in total kg difference, average kg difference, % difference. Which indicator should we look at when making business decisions and why?"
+
+
